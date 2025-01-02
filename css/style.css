@@ -528,3 +528,24 @@ h6,
     color: var(--primary);
 }
 
+/*Boutton flottant*/
+
+.btn-floating {
+    position: fixed;
+    bottom: 30px; /* Ajustez la position de bas en haut */
+    right: 30px;  /* Ajustez la position de droite à gauche */
+    background-color: #0a4b04; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 15px 20px; /* Espacement interne du bouton */
+    border-radius: 50px; /* Bord arrondi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour effet flottant */
+    text-align: center; /* Centrer le texte */
+    z-index: 99; /* Assurez-vous que le bouton est au-dessus des autres éléments */
+    font-size: 16px; /* Taille du texte */
+    cursor: pointer; /* Curseur en forme de main */
+    text-decoration: none; /* Supprimer la sous-ligne du lien */
+}
+
+.btn-floating:hover {
+    color: var(--light);
+}
