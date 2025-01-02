@@ -528,8 +528,16 @@ h6,
     color: var(--primary);
 }
 
-/*Boutton flottant*/
+/* Media query pour les petits écrans */
+@media (max-width: 600px) {
+    .copyright {
+        text-align: left; /* Aligner le texte à gauche */
+        padding-right: 120px; /* Ajouter un peu de marge à gauche */
+    }
+}
 
+
+/*Boutton flottant*/
 .btn-floating {
     position: fixed;
     bottom: 30px; /* Ajustez la position de bas en haut */
@@ -549,3 +557,12 @@ h6,
 .btn-floating:hover {
     color: var(--light);
 }
+
+/* Media query pour les petits écrans */
+@media (max-width: 600px) {
+    .btn-floating {
+        padding: 8px 12px; /* Réduire l'espacement interne du bouton */
+        font-size: 12px; /* Réduire la taille du texte */
+    }
+}
+
