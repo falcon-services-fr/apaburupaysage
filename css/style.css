@@ -349,7 +349,7 @@ h6,
     overflow: hidden;
 }
 
-.portfolio-inner::before,
+/*.portfolio-inner::before,
 .portfolio-inner::after {
     position: absolute;
     content: "";
@@ -359,7 +359,7 @@ h6,
     left: 0;
     background: rgba(15, 66, 41, .6);
     transition: .5s;
-}
+}*/
 
 .portfolio-inner::after {
     left: auto;
